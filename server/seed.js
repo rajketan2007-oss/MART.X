@@ -86,6 +86,13 @@ const sampleCategories = [
     discountTag: 'FLAT 40% OFF',
     image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=800&q=80',
     description: 'Tote bags, crossbody slings & designer clutches'
+  },
+  {
+    name: 'Casual Everyday',
+    slug: 'casual-styles',
+    discountTag: '30-70% OFF',
+    image: 'https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=800&q=80',
+    description: 'Effortless co-ords, relaxed hoodies, shorts & everyday tees'
   }
 ];
 
