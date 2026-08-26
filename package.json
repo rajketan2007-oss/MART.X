@@ -1,22 +1,20 @@
 {
-  "name": "extrad-monorepo",
+  "name": "martx-monorepo",
   "version": "1.0.0",
-  "description": "Extrad MERN Stack E-Commerce Platform Monorepo",
+  "description": "MART.X MERN Stack E-Commerce Platform Monorepo",
   "main": "server/src/server.js",
   "scripts": {
+    "postinstall": "npm --prefix server install",
+    "build": "npm --prefix server install",
+    "start": "node server/src/server.js",
     "dev:server": "npm --prefix server run dev",
     "dev:client": "npm --prefix client run dev",
     "start:server": "npm --prefix server start",
     "start:client": "npm --prefix client run dev",
     "seed": "npm --prefix server run seed",
-    "dev": "npm run start:server & npm run start:client",
-    "start": "npm run start:server & npm run start:client"
+    "dev": "npm run start:server & npm run start:client"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "mongoose": "^9.9.4"
-  }
+  "license": "ISC"
 }
